@@ -1,0 +1,137 @@
+name: rounds
+description: "Medical App"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  carousel_slider: any
+  dio: any
+  intl: any
+  ntp: any
+  shared_preferences: any
+  connectivity: any
+  cached_network_image: any
+  file_picker: any
+  video_player: any
+  share: any
+  image_cropper: any
+  connectivity_plus: any
+  chewie: any
+  audioplayers: any
+  multi_image_picker_plus: any
+  path_provider: any
+  flutter_share: any
+  percent_indicator: any
+  mailer: any
+  open_file: any
+  flutter_easyloading: any
+  firebase_core_web: any
+  image_picker: any
+  flutter_form_builder: any
+  another_audio_recorder: any
+  photo_view: any
+  http: any
+  record: any
+  fluttertoast: any
+  flutter_sound: any
+  speech_to_text: any
+  localstorage: any
+  firebase_core: any
+  firebase_database: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_storage: any
+  highlight_text: any
+  avatar_glow: any
+  share_plus: any
+  animated_splash_screen: any
+  printing: any
+  flutter_slidable: any
+  dropdown_button2: any
+  permission_handler: any
+  flutter_launcher_icons: any
+  smooth_page_indicator: any
+  pinch_zoom: any
+  flutter_cached_pdfview: any
+  introduction_screen: any
+  flutter_local_notifications: any
+  contacts_service: any
+  url_launcher: any
+
+
+  path: any
+  image: any
+  uuid: any
+  cloud_firestore_web: any
+  connectivity_for_web: any
+  firebase_auth_web: any
+  firebase_storage_web: any
+  flutter_keyboard_visibility_web: any
+  image_picker_for_web: any
+  shared_preferences_web: any
+  url_launcher_web: any
+  video_player_web: any
+  wakelock_web: any
+  flutter_web_plugins:
+    sdk: flutter
+  pdf: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo2.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: images/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: images/fonts/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: images/fonts/Poppins-Regular.ttf
